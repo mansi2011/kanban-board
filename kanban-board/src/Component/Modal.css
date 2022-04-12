@@ -1,0 +1,27 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:20;
+}
+
+.modal_content{
+    background-color: #fff;
+    border-radius: 0.3rem;
+    max-height: 95vh;
+    overflow-y: auto;
+}
+
+
+@media only screen and (max-width: 600px){
+    .modal_content{
+        max-width: 25rem;
+    }
+
+}
